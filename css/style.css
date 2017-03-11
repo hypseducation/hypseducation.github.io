@@ -20,6 +20,7 @@ h1
 {
 	font-size: 36px;
 }
+
 /**************************************
 Header
 **************************************/
@@ -80,29 +81,7 @@ Header
 {
 	padding: 0px;
 }
-.jumbotron
-{
-    background-color: transparent;
-    padding-top: 90px;
-}
-.jumbotron p.big
-{
-    line-height: 21px;
-    border-width: 0px;
-    margin: 0px;
-    padding: 0px;
-    letter-spacing: 6px;
-    font-size: 15px;
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 400;
-    color: #ffffff;
-    -webkit-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
-    -moz-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
-    -ms-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
-    filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
-    padding-top: 10px;
-}
+
 a.btn-banner {
     border: 1px solid #cdcdcd;
     padding: 12px 22px;
@@ -138,27 +117,6 @@ a.btn-banner:hover, a.btn-banner:focus
     height: 1px;
     background-color: #ddd;
     margin-bottom: 85px;
-}
-.jumbotron h1.small
-{
-    line-height: 88px;
-    border-width: 0px;
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 62px;
-    letter-spacing: 6px;
-    text-transform: uppercase;
-    font-weight: 400;
-    color: #ffffff;
-    -webkit-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
-    -moz-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
-    -ms-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
-    filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
-}
-.container .jumbotron, .container-fluid .jumbotron {
-    padding-right: 60px;
-    padding-left: 0px;
 }
 .bgblue-dark
 {
@@ -453,8 +411,6 @@ margin-top: 5px;
 }
 #banner
 {
-    background: url('../img/banner-bg.jpg') no-repeat;
-    background-size: cover;
     min-height: 500px;
 }
 .cta2 .btn-default,.cta2 .btn-default:hover,.cta2 .btn-default:focus
@@ -494,11 +450,7 @@ cta
     padding: 3px 14px;
     margin-bottom: 3px;
 }
-.jumbotron
-{
-    padding-right: 30px;
-    padding-left: 30px;
-}
+
 .fig-caption {
     padding: 13px 20px 0px;
 }
@@ -520,9 +472,6 @@ cta
 {
     padding-top: 15px;
 }
-.jumbotron h1.small {
-    font-size: 44px;
-}
 h1.cta-title {
     font-size: 30px;
 }
@@ -534,10 +483,6 @@ p.cta-sub-title {
     height: 40px;
     line-height: 40px;
     width: 150px;
-}
-.jumbotron
-{
-    padding: 90px 0px 0px 20px !important;
 }
 }
 .footer_copyright a
@@ -556,9 +501,6 @@ p.cta-sub-title {
 .fig-caption {
     padding: 56px 20px 20px;
 }
-.jumbotron h1.small {
-    font-size: 44px;
-}
 h1.cta-title {
     font-size: 30px;
 }
@@ -570,10 +512,6 @@ p.cta-sub-title {
     height: 40px;
     line-height: 40px;
     width: 150px;
-}
-.jumbotron
-{
-    padding: 90px 0px 0px 20px !important;
 }
 .service-box .service-text h3 {
     padding-top: 15px;
