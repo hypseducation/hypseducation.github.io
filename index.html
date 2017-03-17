@@ -39,11 +39,83 @@
 	<!--BANNER START-->
 	<div id="banner" class="section-padding">
 		<div class="container">
-			
+			<div class="banner-box">
+				<div class="bd">
+			        <ul>          	    
+			            <li style="background:#F3E5D8;">
+			                <table>
+			                	<tr>
+			                		<td><div class="m-width">
+					                <img src="img/pic1.png" />
+					                </div></td>
+					                <td class="slide_text">
+					                	<h3><b>HYPS EDUCATION</b> is one of the reputable organization of language training, study-abroad consulting, and international education assistance. Among all the study-abroad consulting agencies in China, HYPS EDUCATION sends out the largest number of students to the US every year. We have been recognized as the most successful study-abroad agency that influences most Chinese students studying in the USA. Nielsen Company, along with CITIC Bank of China, ranked HYPS EDUCATION as a 5-star study-abroad agencies. Out of the top five agencies on Nielsen's list, HYPS EDUCATION is the only one solely focusing on the US market.
+										</h3>
+					                </td>
+			                	</tr>
+			                </table>
+			            </li>
+			            <li style="background:#B3DB63">
+			                <table>
+			                	<tr>
+			                		<td><div class="m-width">
+					                <img src="img/pic2.png" />
+					                </div></td>
+					                <td class="slide_text">
+					                	<h3><b>HYPS EDUCATION</b> partners with different sectors of education from high school to graduate degree programs, providing innovative solutions to assist them in initiating, implementing and thriving their objectives in China.
+										</h3>
+					                </td>
+			                	</tr>
+			                </table>
+			            </li>
+			            <li style="background:#C9E6F7;">
+			            	<table>
+			                	<tr>
+			                		<td><div class="m-width">
+					                <img src="img/pic3.png" />
+					                </div></td>
+					                <td class="slide_text">
+					                	<h3><b>HYPS EDUCATION</b> has been cooperating with overseas educational institutions and foreign consulates in Beijing for a long time. It has held many grand international education fairs and consulting meetings to facilitate Chinese students to learn about foreign education and cultures, and provide them with opportunities of talking face to face with the representatives from foreign institutions. 
+										</h3>
+					                </td>
+			                	</tr>
+			                </table>
+			                
+			            </li>
+			         
+			        </ul>
+			    </div>
+			    <div class="banner-btn">
+			        <a class="prev" href="javascript:void(0);"></a>
+			        <a class="next" href="javascript:void(0);"></a>
+			        <div class="hd"><ul></ul></div>
+			    </div>
+			</div>
+
 		</div>
 	</div>
+
 	<!--BANNER END-->
 
+	<!--CTA2 START-->
+	<div class="cta2">
+		<div class="container">
+			<div class="row white">
+				<table style ="width:100% "><tr>
+					<td style=" width: 15% "><img src="img/pic4a.png"></td>
+					<td style=" width: 85%" ><h3 style="line-height: 35px">
+					<ul>
+					<li>Approved by the Chinese Ministry of Education, Chinese Ministry of Public Security and State Administration for Industry and Commerce Member of Association of International Educators<br>
+					<li>The winner of four golden prizes for “Trustworthiness, Business Capability, Service Quality and Satisfactory Charge”<br>
+					<li>The UK Program assessed as a Golden Program at the 4th Beijing Education Expo
+					<ul><h3></td>
+				</tr></table>
+				
+
+			</div>
+		</div>
+	</div>
+	<!--CTA2 END-->
 
 	<!-- mission start-->
 	<div id="mission" class="section-padding">
@@ -389,9 +461,31 @@
   	<script src="js/jquery.easing.min.js"></script>
   	<script src="js/bootstrap.min.js"></script>
   	<script src="js/jquery.mixitup.js" type="text/javascript"></script>
+  	<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
 	<script type="text/javascript" src="js/slick.min.js"></script>
 	<script type="text/javascript" src="js/custom.js"></script>
     <script src="contactform/contactform.js"></script>
-    
+	<script type="text/javascript">
+		$(document).ready(function(){
+
+			$(".prev,.next").hover(function(){
+				$(this).stop(true,false).fadeTo("show",0.9);
+			},function(){
+				$(this).stop(true,false).fadeTo("show",0.4);
+			});
+			
+			$(".banner-box").slide({
+				titCell:".hd ul",
+				mainCell:".bd ul",
+				effect:"fold",
+				interTime:3500,
+				delayTime:500,
+				autoPlay:true,
+				autoPage:true, 
+				trigger:"click" 
+			});
+
+		});
+	</script>
 </body>
 </html>
